@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="255" pref="180" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jbtnConvert" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                                      <Component id="jbntnReset" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jbtnExit" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jcmbCurrency1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jcmbCurrency2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel4" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jlblConvert" min="-2" pref="318" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="jtxtConvert" min="-2" pref="202" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="495" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="384" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlblTime" min="-2" pref="227" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="476" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+              <Component id="jlblTime" min="-2" pref="29" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jcmbCurrency1" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jcmbCurrency2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jtxtConvert" min="-2" pref="63" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlblConvert" min="-2" pref="83" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jbtnConvert" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="jbntnReset" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="jbtnExit" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="287" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Bright" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Online Currency Converter 4.0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcmbCurrency1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Microsoft Sans Serif" size="18" style="1"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="53">
+            <StringItem index="0" value="Select One..."/>
+            <StringItem index="1" value="USD"/>
+            <StringItem index="2" value="AED"/>
+            <StringItem index="3" value="ARS"/>
+            <StringItem index="4" value="AUD"/>
+            <StringItem index="5" value="BGN"/>
+            <StringItem index="6" value="BRL"/>
+            <StringItem index="7" value="BSD"/>
+            <StringItem index="8" value="CAD"/>
+            <StringItem index="9" value="CHF"/>
+            <StringItem index="10" value="CLP"/>
+            <StringItem index="11" value="CNY"/>
+            <StringItem index="12" value="COP"/>
+            <StringItem index="13" value="CZK"/>
+            <StringItem index="14" value="DKK"/>
+            <StringItem index="15" value="DOP"/>
+            <StringItem index="16" value="EGP"/>
+            <StringItem index="17" value="EUR"/>
+            <StringItem index="18" value="FJD"/>
+            <StringItem index="19" value="GBP"/>
+            <StringItem index="20" value="GTQ"/>
+            <StringItem index="21" value="HKD"/>
+            <StringItem index="22" value="HRK"/>
+            <StringItem index="23" value="HUF"/>
+            <StringItem index="24" value="IDR"/>
+            <StringItem index="25" value="ILS"/>
+            <StringItem index="26" value="INR"/>
+            <StringItem index="27" value="ISK"/>
+            <StringItem index="28" value="JPY"/>
+            <StringItem index="29" value="KRW"/>
+            <StringItem index="30" value="KZT"/>
+            <StringItem index="31" value="MXN"/>
+            <StringItem index="32" value="MYR"/>
+            <StringItem index="33" value="NOK"/>
+            <StringItem index="34" value="NZD"/>
+            <StringItem index="35" value="PAB"/>
+            <StringItem index="36" value="PEN"/>
+            <StringItem index="37" value="PHP"/>
+            <StringItem index="38" value="PKR"/>
+            <StringItem index="39" value="PLN"/>
+            <StringItem index="40" value="PYG"/>
+            <StringItem index="41" value="RON"/>
+            <StringItem index="42" value="RUB"/>
+            <StringItem index="43" value="SAR"/>
+            <StringItem index="44" value="SEK"/>
+            <StringItem index="45" value="SGD"/>
+            <StringItem index="46" value="THB"/>
+            <StringItem index="47" value="TRY"/>
+            <StringItem index="48" value="TWD"/>
+            <StringItem index="49" value="UAH"/>
+            <StringItem index="50" value="UYU"/>
+            <StringItem index="51" value="VND"/>
+            <StringItem index="52" value="ZAR"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcmbCurrency1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblConvert">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true" thickness="5">
+              <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtConvert">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="5"/>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtConvertActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnExit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnExitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbntnReset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbntnResetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnConvert">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Convert"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnConvertActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcmbCurrency2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Microsoft Sans Serif" size="18" style="1"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="53">
+            <StringItem index="0" value="Select One..."/>
+            <StringItem index="1" value="USD"/>
+            <StringItem index="2" value="AED"/>
+            <StringItem index="3" value="ARS"/>
+            <StringItem index="4" value="AUD"/>
+            <StringItem index="5" value="BGN"/>
+            <StringItem index="6" value="BRL"/>
+            <StringItem index="7" value="BSD"/>
+            <StringItem index="8" value="CAD"/>
+            <StringItem index="9" value="CHF"/>
+            <StringItem index="10" value="CLP"/>
+            <StringItem index="11" value="CNY"/>
+            <StringItem index="12" value="COP"/>
+            <StringItem index="13" value="CZK"/>
+            <StringItem index="14" value="DKK"/>
+            <StringItem index="15" value="DOP"/>
+            <StringItem index="16" value="EGP"/>
+            <StringItem index="17" value="EUR"/>
+            <StringItem index="18" value="FJD"/>
+            <StringItem index="19" value="GBP"/>
+            <StringItem index="20" value="GTQ"/>
+            <StringItem index="21" value="HKD"/>
+            <StringItem index="22" value="HRK"/>
+            <StringItem index="23" value="HUF"/>
+            <StringItem index="24" value="IDR"/>
+            <StringItem index="25" value="ILS"/>
+            <StringItem index="26" value="INR"/>
+            <StringItem index="27" value="ISK"/>
+            <StringItem index="28" value="JPY"/>
+            <StringItem index="29" value="KRW"/>
+            <StringItem index="30" value="KZT"/>
+            <StringItem index="31" value="MXN"/>
+            <StringItem index="32" value="MYR"/>
+            <StringItem index="33" value="NOK"/>
+            <StringItem index="34" value="NZD"/>
+            <StringItem index="35" value="PAB"/>
+            <StringItem index="36" value="PEN"/>
+            <StringItem index="37" value="PHP"/>
+            <StringItem index="38" value="PKR"/>
+            <StringItem index="39" value="PLN"/>
+            <StringItem index="40" value="PYG"/>
+            <StringItem index="41" value="RON"/>
+            <StringItem index="42" value="RUB"/>
+            <StringItem index="43" value="SAR"/>
+            <StringItem index="44" value="SEK"/>
+            <StringItem index="45" value="SGD"/>
+            <StringItem index="46" value="THB"/>
+            <StringItem index="47" value="TRY"/>
+            <StringItem index="48" value="TWD"/>
+            <StringItem index="49" value="UAH"/>
+            <StringItem index="50" value="UYU"/>
+            <StringItem index="51" value="VND"/>
+            <StringItem index="52" value="ZAR"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Input Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblTime">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="From:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="To:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
